@@ -1,104 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашня робота: DOM та Події</title>
+    <title>Домашня робота 7: DOM та Події</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <main>
-        <section class="task-section">
-            <h2>Завдання 1: Категорії</h2>
-            <ul id="categories">
-                <li class="item">
-                    <h2>Animals</h2>
-                    <ul>
-                        <li>Cat</li>
-                        <li>Hamster</li>
-                        <li>Horse</li>
-                        <li>Parrot</li>
-                    </ul>
-                </li>
-                <li class="item">
-                    <h2>Products</h2>
-                    <ul>
-                        <li>Bread</li>
-                        <li>Parsley</li>
-                        <li>Cheese</li>
-                    </ul>
-                </li>
-                <li class="item">
-                    <h2>Technologies</h2>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                    </ul>
-                </li>
+        <h1>Список виконаних завдань</h1>
+        <nav>
+            <ul>
+                <li><a href="./task-1.html">Завдання 1: Категорії</a></li>
+                <li><a href="./task-2.html">Завдання 2: Галерея</a></li>
+                <li><a href="./task-3.html">Завдання 3: Привітання</a></li>
+                <li><a href="./task-4.html">Завдання 4: Форма логіна</a></li>
+                <li><a href="./task-5.html">Завдання 5: Зміна кольору</a></li>
+                <li><a href="./task-6.html">Завдання 6: Колекція елементів</a></li>
             </ul>
-        </section>
-
-        <hr>
-
-        <section class="task-section">
-            <h2>Завдання 2: Галерея</h2>
-            <ul class="gallery"></ul>
-        </section>
-
-        <hr>
-
-        <section class="task-section">
-            <h2>Завдання 3: Привітання</h2>
-            <div class="input-container">
-                <input type="text" id="name-input" placeholder="Please enter your name" />
-                <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="task-section">
-            <h2>Завдання 4: Форма логіна</h2>
-            <form class="login-form">
-                <label>Email <input type="email" name="email" /></label>
-                <label>Password <input type="password" name="password" /></label>
-                <button type="submit">Log in</button>
-            </form>
-        </section>
-
-        <hr>
-
-        <section class="task-section">
-            <h2>Завдання 5: Зміна кольору</h2>
-            <div class="widget">
-                <p>Background color: <span class="color">-</span></p>
-                <button type="button" class="change-color">Change color</button>
-            </div>
-        </section>
-
-        <hr>
-
-        <section class="task-section">
-            <h2>Завдання 6: Колекція елементів</h2>
-            <div id="controls">
-                <input type="number" min="1" max="100" step="1" />
-                <button type="button" data-create>Create</button>
-                <button type="button" data-destroy>Destroy</button>
-            </div>
-            <div id="boxes"></div>
-        </section>
+        </nav>
     </main>
-
-    <script type="module" src="./js/task-1.js"></script>
-    <script type="module" src="./js/task-2.js"></script>
-    <script type="module" src="./js/task-3.js"></script>
-    <script type="module" src="./js/task-4.js"></script>
-    <script type="module" src="./js/task-5.js"></script>
-    <script type="module" src="./js/task-6.js"></script>
-
 </body>
+
 </html>
